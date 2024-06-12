@@ -1,4 +1,5 @@
 #!/usr/bin/yarn test
+//8-job file
 import sinon from 'sinon';
 import { expect } from 'chai';
 import { createQueue } from 'kue';
