@@ -2,7 +2,7 @@
   "name": "queuing_system_in_js",
   "version": "1.0.0",
   "description": "A project for learning the basics of a queueing system in Node.js.",
-  "author": "Bezaleel Olakunori <bezaleeloci@gmail.com>",
+  "author": "Motekema Mahlanya <motekema@gmail.com>",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -37,12 +37,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/B3zaleel/alx-backend"
+    "url": "https://github.com/Motekema/alx-backend"
   },
   "bugs": {
-    "url": "https://github.com/B3zaleel/alx-backend/issues"
+    "url": "https://github.com/Motekema/alx-backend/issues"
   },
-  "homepage": "https://github.com/B3zaleel/alx-backend/blob/main/0x03-queuing_system_in_js/README.md",
+  "homepage": "https://github.com/Motekema/alx-backend/blob/main/0x03-queuing_system_in_js/README.md",
   "engines": {
     "node": "16.x",
     "npm": "8.x",
