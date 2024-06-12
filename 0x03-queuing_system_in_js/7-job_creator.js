@@ -1,5 +1,6 @@
 #!/usr/bin/yarn dev
 import { createQueue } from 'kue';
+// Shebang indicating the script should be executed using Yarn
 
 const jobs = [
   {
@@ -48,11 +49,13 @@ const jobs = [
   },
 ];
 
+// Creating a queue instance named 'push_notification_code_2'
 const queue = createQueue({ name: 'push_notification_code_2' });
 
 for (const jobInfo of jobs) {
   const job = queue.create('push_notification_code_2', jobInfo);
-
+  
+// Event listeners for the job
   job
     .on('enqueue', () => {
       console.log('Notification job created:', job.id);
