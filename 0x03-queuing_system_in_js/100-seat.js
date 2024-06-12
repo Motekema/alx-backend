@@ -8,11 +8,11 @@ const app = express();
 const client = createClient({ name: 'reserve_seat' });
 const queue = createQueue();
 const INITIAL_SEATS_COUNT = 50;
-let reservationEnabled = false;
 const PORT = 1245;
+let reservationEnabled = false;
 
 /**
- * Modifies the number of available seats.
+ * Modifies some available seats.
  * @param {number} number - The new number of seats.
  */
 const reserveSeat = async (number) => {
@@ -20,7 +20,7 @@ const reserveSeat = async (number) => {
 };
 
 /**
- * Retrieves the number of available seats.
+ * Retrieves several available seats.
  * @returns {Promise<String>}
  */
 const getCurrentAvailableSeats = async () => {
